@@ -3,17 +3,17 @@
   "channels": {
     "developer": {
       "version": "0.1.2",
-      "build": 1,
+      "build": 2,
       "released": "2026-10-22",
       "notes": [
-        "Opens on the Library by default",
+        "Opens the update dialog when Story Starter starts",
         "Windows: updates download and install from inside the app"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.2/StoryStarter-Developer-Setup-0.1.2.exe",
-          "sha256": "ed7cf36780b3a3f4378d4102cc9745f7b03e543693546deac39d342da7c71ed0",
-          "size": 45908312
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.2-build2/StoryStarter-Developer-Setup-0.1.2-build2.exe",
+          "sha256": "cf3e2d93516dfa5bf506d639afd045cad03a94edeb3ad241d39bb2e869bca051",
+          "size": 45914777
         }
       }
     }
