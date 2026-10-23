@@ -3,16 +3,22 @@
   "channels": {
     "developer": {
       "version": "0.1.2",
-      "build": 5,
-      "released": "2026-10-22",
+      "build": 6,
+      "released": "2026-10-23",
       "notes": [
-        "Checks for updates at every start, so a new version is offered at the next launch"
+        "Updates are signed and checked before they install",
+        "Installs by itself when you close the app (a setting in the update window)",
+        "Update available button and Help menu item while the app is open",
+        "The app checks for updates every few hours while it stays open"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.2-build5/StoryStarter-Developer-Setup-0.1.2-build5.exe",
-          "sha256": "57783090d44e3891657dc4ac6a867e127889f5896a33b411b2916080aed742d9",
-          "size": 45914566
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.2-build6-developer/StoryStarter-Developer-Setup-0.1.2-build6.exe",
+          "sha256": "12b765b1ff001c11a596b4355343dc637ac2f86fbe969edb421edc4981b35be2",
+          "size": 45937943,
+          "kind": "developer",
+          "backend": "production",
+          "signature": "opb2YRfvovA143QSnegpOIh7/ZpY06CPHcHfmqLwc1JIJaE02tk0h5pybPgMyVwmWDN8Z/yMZrLD6JHJNdDNCg=="
         }
       }
     }
