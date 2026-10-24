@@ -2,24 +2,23 @@
   "schema": 1,
   "channels": {
     "developer": {
-      "version": "0.1.3",
-      "build": 6,
+      "version": "0.1.4",
+      "build": 7,
       "released": "2026-10-24",
       "notes": [
-        "Updates now download and install inside the app, with no browser",
-        "Installs by itself when you close the app (a setting in the update window)",
-        "The app checks for updates every few hours while it stays open",
-        "Fixes the crash when the app closes",
-        "Updates are signed and checked before they install"
+        "Mood board photos can be moved and zoomed inside their frame and fitted to the whole picture",
+        "Shared projects that only exist in your cloud can now be fetched on another computer",
+        "Fixes shared changes sometimes not appearing after a restart",
+        "Update checks run every hour"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.3-build6-developer/StoryStarter-Developer-Setup-0.1.3-build6.exe",
-          "sha256": "c366d0976296a3478b12b68b287d2fd164f957b9117e38b3ebb758a42754ca8e",
-          "size": 45943575,
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.4-build7-developer/StoryStarter-Developer-Setup-0.1.4-build7.exe",
+          "sha256": "db379fc62ec3eb457f7e065f38e82258fd2483e5b40b897fb637b85950d3adcb",
+          "size": 45950642,
           "kind": "developer",
           "backend": "production",
-          "signature": "p4hcOHAJKg0lg+SBw/Nj0cQX9RQMo/EqrGxx+kRZ9zzDtujbfl66Za9zHxmRPvUCYbug8Domz49H9zYqGHN4AQ=="
+          "signature": "gpAgQTneztN5QDoGuQGBuoRhn4tAh2On5hw+AByNCTy0MWhgaUhZ2vp2ZM9cmb65gMtVxdUtVzsV84mqK8B+DA=="
         }
       }
     }
