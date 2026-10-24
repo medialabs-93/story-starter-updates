@@ -3,22 +3,24 @@
   "channels": {
     "developer": {
       "version": "0.1.4",
-      "build": 7,
+      "build": 11,
       "released": "2026-10-24",
       "notes": [
+        "Pictures on shared mood boards now sync both ways, including from a Mac to a Windows PC",
+        "Pictures over 10 MB are shared as a smaller copy; your original is untouched",
+        "Cards say Image downloading or Image not downloaded while a picture is on its way",
         "Mood board photos can be moved and zoomed inside their frame and fitted to the whole picture",
-        "Shared projects that only exist in your cloud can now be fetched on another computer",
-        "Fixes shared changes sometimes not appearing after a restart",
-        "Update checks run every hour"
+        "Renaming a shared project syncs to everyone",
+        "Shared projects that only exist in your cloud can be fetched on another computer"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.4-build7-developer/StoryStarter-Developer-Setup-0.1.4-build7.exe",
-          "sha256": "db379fc62ec3eb457f7e065f38e82258fd2483e5b40b897fb637b85950d3adcb",
-          "size": 45950642,
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.4-build11-developer/StoryStarter-Developer-Setup-0.1.4-build11.exe",
+          "sha256": "762db96914412df3fb44fe73de9af521de8a7dae2e839d7b8afbae3eb18dc58d",
+          "size": 45977365,
           "kind": "developer",
           "backend": "production",
-          "signature": "gpAgQTneztN5QDoGuQGBuoRhn4tAh2On5hw+AByNCTy0MWhgaUhZ2vp2ZM9cmb65gMtVxdUtVzsV84mqK8B+DA=="
+          "signature": "lrSBCcqJ2NFh66j+sqRVw3u4NWeZv7ETCFF6os51M2KsMUPBHkzjekxekkbsp9767/pnNAzdD9BOhJRMv7vZAA=="
         }
       }
     }
