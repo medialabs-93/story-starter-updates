@@ -2,25 +2,25 @@
   "schema": 1,
   "channels": {
     "developer": {
-      "version": "0.1.4",
-      "build": 11,
-      "released": "2026-10-24",
+      "version": "0.1.5",
+      "build": 13,
+      "released": "2026-10-25",
       "notes": [
-        "Pictures on shared mood boards now sync both ways, including from a Mac to a Windows PC",
-        "Pictures over 10 MB are shared as a smaller copy; your original is untouched",
-        "Cards say Image downloading or Image not downloaded while a picture is on its way",
-        "Mood board photos can be moved and zoomed inside their frame and fitted to the whole picture",
-        "Renaming a shared project syncs to everyone",
-        "Shared projects that only exist in your cloud can be fetched on another computer"
+        "Version 0.1.5",
+        "Add Text to mood boards",
+        "Two-finger scroll on a Mac trackpad no longer drags mood board cards",
+        "Live edits from other people no longer make the open page jump",
+        "Big GIF and BMP pictures are shared as a smaller copy",
+        "Wider left menu"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.4-build11-developer/StoryStarter-Developer-Setup-0.1.4-build11.exe",
-          "sha256": "762db96914412df3fb44fe73de9af521de8a7dae2e839d7b8afbae3eb18dc58d",
-          "size": 45977365,
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.5-build13-developer/StoryStarter-Developer-Setup-0.1.5-build13.exe",
+          "sha256": "2405e65a9e21ed67e1dfeb38f147afe7dedff36e6144ad22ec91be8ab365835d",
+          "size": 46003281,
           "kind": "developer",
           "backend": "production",
-          "signature": "lrSBCcqJ2NFh66j+sqRVw3u4NWeZv7ETCFF6os51M2KsMUPBHkzjekxekkbsp9767/pnNAzdD9BOhJRMv7vZAA=="
+          "signature": "WHkkZt4tlWddUbuHPN2V1m4HwzKRDPJz7Pmg6x8Jiv8zkEfET2nj+LK4BVT13g3Uf6FaFFvwRqDugeb1uGUMAg=="
         }
       }
     }
