@@ -2,25 +2,26 @@
   "schema": 1,
   "channels": {
     "developer": {
-      "version": "0.1.5",
-      "build": 13,
-      "released": "2026-10-25",
+      "version": "0.1.6",
+      "build": 14,
+      "released": "2026-10-26",
       "notes": [
-        "Version 0.1.5",
-        "Add Text to mood boards",
-        "Two-finger scroll on a Mac trackpad no longer drags mood board cards",
-        "Live edits from other people no longer make the open page jump",
-        "Big GIF and BMP pictures are shared as a smaller copy",
-        "Wider left menu"
+        "Version 0.1.6",
+        "Update notice at launch: the dialog opens before the download, and a failed check is retried",
+        "Undo for deletes, scene moves and card moves (Ctrl+Z, Ctrl+Y)",
+        "Character photos",
+        "Failed saves retry and warn on quit",
+        "Sync status is a small chip in the sidebar",
+        "Boards: full-height board list, right-click Delete, double-click rename"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.5-build13-developer/StoryStarter-Developer-Setup-0.1.5-build13.exe",
-          "sha256": "2405e65a9e21ed67e1dfeb38f147afe7dedff36e6144ad22ec91be8ab365835d",
-          "size": 46003281,
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.6-build14-developer/StoryStarter-Developer-Setup-0.1.6-build14.exe",
+          "sha256": "56b8df2b38d1578a65dabe5ac017c1d5db49914e7b7eb83fa2940be25530f558",
+          "size": 46034929,
           "kind": "developer",
           "backend": "production",
-          "signature": "WHkkZt4tlWddUbuHPN2V1m4HwzKRDPJz7Pmg6x8Jiv8zkEfET2nj+LK4BVT13g3Uf6FaFFvwRqDugeb1uGUMAg=="
+          "signature": "cvTVbasqSlvIesdqxEmFwCvGO2n3AEA/LhosG5pTy3bhdHId+PzeJn6+BbxmLSLTH4hkXkfyywrQabKBWe6GBQ=="
         }
       }
     }
