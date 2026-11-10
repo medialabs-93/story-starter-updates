@@ -2,26 +2,27 @@
   "schema": 1,
   "channels": {
     "developer": {
-      "version": "0.1.6",
-      "build": 14,
-      "released": "2026-10-26",
+      "version": "0.1.7",
+      "build": 15,
+      "released": "2026-11-10",
       "notes": [
-        "Version 0.1.6",
-        "Update notice at launch: the dialog opens before the download, and a failed check is retried",
-        "Undo for deletes, scene moves and card moves (Ctrl+Z, Ctrl+Y)",
-        "Character photos",
-        "Failed saves retry and warn on quit",
-        "Sync status is a small chip in the sidebar",
-        "Boards: full-height board list, right-click Delete, double-click rename"
+        "Share a story with other people and edit it together: invite them by email from File > Cloud > Share (a test release of sharing)",
+        "The Library card, the sync chip and Members say who last edited a shared story and when",
+        "Keyboard shortcuts are in Preferences",
+        "Scenes can be deleted from the Outline (button or right-click) with Undo",
+        "Free Write: rename a page in place (double-click or F2), right-click for Rename and Delete",
+        "Text is no longer cut off at large text sizes or in a small window",
+        "Script: one line-type menu in a small window; Write, Preview and Fountain are one switch",
+        "Cards has an Add scene button"
       ],
       "downloads": {
         "windows": {
-          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.6-build14-developer/StoryStarter-Developer-Setup-0.1.6-build14.exe",
-          "sha256": "56b8df2b38d1578a65dabe5ac017c1d5db49914e7b7eb83fa2940be25530f558",
-          "size": 46034929,
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.7-build15-developer/StoryStarter-Developer-Setup-0.1.7-build15.exe",
+          "sha256": "dbf22b30d87336722e7fa55c8fbecb912cd7f9f940fea7689bae8e1cdd240876",
+          "size": 46137835,
           "kind": "developer",
           "backend": "production",
-          "signature": "cvTVbasqSlvIesdqxEmFwCvGO2n3AEA/LhosG5pTy3bhdHId+PzeJn6+BbxmLSLTH4hkXkfyywrQabKBWe6GBQ=="
+          "signature": "PA5msWAAdezp5rLZMO0Ra5pw/DJvbspYNRzgstWRdacQKySNzZRzGHePRNXyraHqCR4GpWYeahPUUHStuCrgDQ=="
         }
       }
     }
