@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Story Starter (stable)</title>
+    <item>
+      <title>Version 0.1.0</title>
+      <pubDate>Sat, 21 Nov 2026 06:31:27 +0000</pubDate>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul><li>The first Public Beta of Story Starter</li><li>Your stories stay on this computer: this beta has no cloud sharing</li></ul>]]></description>
+      <enclosure url="https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build17-mac/Story-Starter-0.1.0-build17.zip" length="49119792" type="application/octet-stream" sparkle:edSignature="DLDe0oENn79exm7U83tzaaQbHYmDfTyH3VRvoLLssSGjnENS65eYbTKqEQzDE4nKn49YzxEx6+7jh77/u6iNDw=="/>
+    </item>
+  </channel>
+</rss>
