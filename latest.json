@@ -25,6 +25,24 @@
           "signature": "PA5msWAAdezp5rLZMO0Ra5pw/DJvbspYNRzgstWRdacQKySNzZRzGHePRNXyraHqCR4GpWYeahPUUHStuCrgDQ=="
         }
       }
+    },
+    "stable": {
+      "version": "0.1.0",
+      "build": 19,
+      "released": "2026-11-24",
+      "notes": [
+        "First public beta of Story Starter: write screenplays offline, with a script PDF scene-number option"
+      ],
+      "downloads": {
+        "windows": {
+          "url": "https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build19/StoryStarter-Setup-0.1.0-build19.exe",
+          "sha256": "c4ddd071f8f09b11a7a16ce76d4090d3fb2f8723f0f5c8a14e17f8015c9d213f",
+          "size": 47230980,
+          "kind": "public",
+          "backend": "production",
+          "signature": "YgCQUO9TZmo5qIZ7AjTgh+pLiK1EgeyEW/OETxrxqNVbdHJjDFkp+KVuVwzwkoK1Z2jn+08we5MAtTMFJRb7Dg=="
+        }
+      }
     }
   }
 }
