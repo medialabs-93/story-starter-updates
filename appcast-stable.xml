@@ -4,12 +4,12 @@
     <title>Story Starter (stable)</title>
     <item>
       <title>Version 0.1.0</title>
-      <pubDate>Sat, 21 Nov 2026 06:31:27 +0000</pubDate>
-      <sparkle:version>17</sparkle:version>
+      <pubDate>Tue, 24 Nov 2026 20:02:29 +0000</pubDate>
+      <sparkle:version>18</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>The first Public Beta of Story Starter</li><li>Your stories stay on this computer: this beta has no cloud sharing</li></ul>]]></description>
-      <enclosure url="https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build17-mac/Story-Starter-0.1.0-build17.zip" length="49119792" type="application/octet-stream" sparkle:edSignature="DLDe0oENn79exm7U83tzaaQbHYmDfTyH3VRvoLLssSGjnENS65eYbTKqEQzDE4nKn49YzxEx6+7jh77/u6iNDw=="/>
+      <description><![CDATA[<ul><li>Fixes from a full review: safer linked scripts and revision marks, chapters in Print and PDF, plain error messages.</li><li>Print uses the PDF builder's layout. New: scene numbers for script PDFs (Page Setup).</li><li>Turn automatic update checks off in Preferences &gt; Data. Send feedback without technical details.</li></ul>]]></description>
+      <enclosure url="https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build18-mac/Story-Starter-0.1.0-build18.zip" length="52009852" type="application/octet-stream" sparkle:edSignature="8lo1r/7id0otmbqR5tDBQ9g7SkuWm8DoZkXkJeS/5zzEIhHnSF3RNhbjt8KEGZ948Ru1VvCFsyhyQ3q5KJJbCQ=="/>
     </item>
   </channel>
 </rss>

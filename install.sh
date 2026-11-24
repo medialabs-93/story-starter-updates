@@ -95,12 +95,38 @@ if [ -z "$DEST_DIR" ]; then
   if [ -w /Applications ]; then DEST_DIR="/Applications"; else DEST_DIR="$HOME/Applications"; fi
 fi
 mkdir -p "$DEST_DIR"
-if pgrep -x "${name%.app}" >/dev/null 2>&1; then
+# The running process is named after the executable ("Story Starter"), not the .app, which carries
+# the version's name ("Story Starter Beta.app" / "Story Starter Developer.app", owner 2026-11-21).
+exe="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleExecutable' "$app/Contents/Info.plist" 2>/dev/null || echo "${name%.app}")"
+if pgrep -x "$exe" >/dev/null 2>&1; then
   fail "Story Starter is running. Quit it (Story Starter > Quit), then run this again."
 fi
-rm -rf "$DEST_DIR/$name"
-ditto "$app" "$DEST_DIR/$name" || fail "could not copy the app to $DEST_DIR."
+# Copy first, then swap, so a failed copy (a full disk, a permissions problem) never leaves the person
+# with no app at all (audit 2026-11-15): the copy already there stays until the new one is complete.
+stage="$DEST_DIR/.$name.installing"
+old="$DEST_DIR/.$name.old"
+rm -rf "$stage" "$old"
+if ! ditto "$app" "$stage"; then
+  rm -rf "$stage"
+  fail "could not copy the app to $DEST_DIR. Nothing was changed."
+fi
+if [ -e "$DEST_DIR/$name" ]; then
+  mv "$DEST_DIR/$name" "$old" || { rm -rf "$stage"; fail "could not replace $DEST_DIR/$name. Nothing was changed."; }
+fi
+if ! mv "$stage" "$DEST_DIR/$name"; then
+  [ -e "$old" ] && mv "$old" "$DEST_DIR/$name"
+  rm -rf "$stage"
+  fail "could not put the new app in $DEST_DIR. The copy that was there is unchanged."
+fi
+rm -rf "$old"
 echo "Installed: $DEST_DIR/$name"
+# Before 2026-11-21 every version was "Story Starter.app"; the new name doesn't replace it, and two
+# copies of one app side by side open the wrong one sooner or later (audit 2026-11-22). Say so; never
+# delete an app the person may still want.
+if [ "$name" != "Story Starter.app" ] && [ -d "$DEST_DIR/Story Starter.app" ]; then
+  echo "Note: an older copy, \"Story Starter.app\", is also in $DEST_DIR (the name before Beta and Developer)."
+  echo "      If it is an older copy of this version, move it to the Trash so you don't open it by mistake."
+fi
 
 if [ "$NO_START" = "1" ]; then
   echo "Not opened (--no-start)."
