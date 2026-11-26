@@ -4,12 +4,12 @@
     <title>Story Starter (stable)</title>
     <item>
       <title>Version 0.1.0</title>
-      <pubDate>Tue, 24 Nov 2026 20:02:29 +0000</pubDate>
-      <sparkle:version>18</sparkle:version>
+      <pubDate>Thu, 26 Nov 2026 14:10:13 +0000</pubDate>
+      <sparkle:version>20</sparkle:version>
       <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Fixes from a full review: safer linked scripts and revision marks, chapters in Print and PDF, plain error messages.</li><li>Print uses the PDF builder's layout. New: scene numbers for script PDFs (Page Setup).</li><li>Turn automatic update checks off in Preferences &gt; Data. Send feedback without technical details.</li></ul>]]></description>
-      <enclosure url="https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build18-mac/Story-Starter-0.1.0-build18.zip" length="52009852" type="application/octet-stream" sparkle:edSignature="8lo1r/7id0otmbqR5tDBQ9g7SkuWm8DoZkXkJeS/5zzEIhHnSF3RNhbjt8KEGZ948Ru1VvCFsyhyQ3q5KJJbCQ=="/>
+      <description><![CDATA[<ul><li>Sign-in: the wait after wrong passwords counts down; on a shared computer each account sees its own stories; signing out asks first.</li><li>Fixes from a full review: Script, Boards, Characters, Trash, Preferences and Help.</li><li>Printing explains why macOS asks about your network, and the window keeps its size.</li></ul>]]></description>
+      <enclosure url="https://github.com/medialabs-93/story-starter-updates/releases/download/v0.1.0-build20-mac/Story-Starter-0.1.0-build20.zip" length="52128945" type="application/octet-stream" sparkle:edSignature="i79PPrPbGpsEOIIo4ASwEoneH9RXeEsGSWPg3CiD74PUCItTbhl03RSGeEBwvwXfNk+YSKod4zeJG2kOZywKDA=="/>
     </item>
   </channel>
 </rss>
